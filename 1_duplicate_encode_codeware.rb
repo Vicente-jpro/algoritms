@@ -15,7 +15,7 @@
 #   end
 # end
 
-def duplicate_encoder(str)
+def duplicate_encode(str)
  new_str = ""
  i = 0
  str = str.downcase
@@ -52,9 +52,9 @@ end
 
 
 
-puts duplicate_encoder("din")
-puts duplicate_encoder("recede")
-puts duplicate_encoder("Success")
-puts duplicate_encoder("(( @")
+puts duplicate_encode("din")
+puts duplicate_encode("recede")
+puts duplicate_encode("Success")
+puts duplicate_encode("(( @")
 
 
